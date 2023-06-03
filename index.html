@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Registration</title>
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+  <div class="container">
+    <h2>User Registration</h2>
+    <form>
+      <label for="username"><b>Username:</b></label>
+      <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+      <label for="email"><b>Email:</b></label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="Affiliation"><b>Affiliation:</b></label>
+      <input type="Affiliation" id="Affiliation" name="Affiliation" placeholder="Affiliation" required>
+
+      <label for="phonenumber"><b>Phone number:</b></label>
+      <input type="phonenumber" id="phonenumber" name="phonenumber" placeholder="Enter your phone number" required>
+      <br><br>
+      <label for="preference"><b>Dietry preference:</b></label><br>
+      <input type="checkbox" name="preference" value="vegan" checked="checked" />Vegan <br><input type="checkbox"
+                            name="preference" value="vegiterian" /> Vegiterian <br><input type="checkbox" name="non-vegitarian" value="non-vegitarian" /> Non-vegitarian <br> <br>
+
+      <label for="gender"><b>Gender:</b></label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+        <input type="radio" id="prefernottosay" name="gender" value="prefernottosay">
+        <label for="prefernottosay">Prefer not to say</label>
+      <br><br>
+
+      <label for="Registrationtype" ><b>Registration type:</b></label>
+        <input type="radio" id="student" name="Registrationtype" value="student">
+        <label for="male"> Student</label>
+        <input type="radio" id="attendee" name="Registrationtype" value="attendee">
+        <label for="female">General attendee</label>
+        <input type="radio" id="VIP" name="Registrationtype" value="VIP">
+        <label for="Registrationtype">VIP</label>
+
+      <input type="submit" value="Register">
+    </form>
+  </div>
+</body>
+</html>

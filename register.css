@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(200, 200, 200);
+    justify-content: center;
+    
+    
+  }
+
+  .container {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+  }
+
+  .container h2 {
+    text-align: center;
+  }
+
+  .container input[type="text"],
+  .container input[type="Affiliation"],
+  .container input[type="email"],
+  .container input[type="phonenumber"],
+  .container input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+
+  .container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+
+  .container input[type="submit"]:hover {
+    background-color: #45a049;
+  }
